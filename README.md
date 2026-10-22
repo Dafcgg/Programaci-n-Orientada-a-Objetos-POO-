@@ -6,38 +6,24 @@
 ## Estructura del proyecto
 
 ```
-TallerPOO/
+TallerPOO Programacion Orientada a Objetos POO/
 ├── Arena RPG con POO Avanzada, Colecciones y Genéricos/
-├── seccion1_modelos/
-│   ├── Vehiculo.java
-│   ├── Estudiante.java
-│   └── CuentaBancaria.java
-├── seccion2_utiles/
-│   └── ConversorMoneda.java
-├── seccion4_ejecucion/
-│   └── Principal.java
-├── seccion5_reto/
-│   └── SistemaGestionCuentas.java
-├── seccion6_debugging/
-│   ├── PruebaEstudiante.java
-│   ├── GestorVehiculos.java
-│   ├── CuentaBancariaError.java
-│   └── VehiculoShadowing.java
+│   ├── Sección 1 Interfaz Contrato/
+│   ├── Sección 3 Clase Genérica/
+│   └── Secciones 2 y 4 Lógica de Escuadrón, Tablero 2D y Reto Integrador/
+├── ArenaHeroesRPG/
+│   ├── Sección 2/
+│   ├── Sección 3/
+│   ├── Secciones 2 y 3/
+│   └── Secciones 4 y 5/
 ├── Simulador de Batalla RPG/
+│   ├── modelo/
+│   └── principal/
+├── TallerPOO/
+│   ├── seccion1_modelos/
+│   ├── seccion2_utiles/
+│   ├── seccion4_ejecucion/
+│   ├── seccion5_reto/
+│   └── seccion6_debugging/
 └── README.md
 ```
-
-| Carpeta / Paquete | Contenido |
-|---|---|
-| `Arena RPG con POO Avanzada, Colecciones y Genéricos` | Documentación, guías y especificaciones del taller integrador RPG |
-| `seccion1_modelos` | Secciones 1 y 3: modelado de clases, atributos y constructores |
-| `seccion2_utiles` | Sección 2: clase utilitaria con métodos estáticos |
-| `seccion4_ejecucion` | Sección 4: instanciación de objetos y salida formateada |
-| `seccion5_reto` | Sección 5: reto integrador de consola |
-| `seccion6_debugging` | Sección 6: casos de estudio corregidos |
-| `Simulador de Batalla RPG` | Módulo ejecutable del proyecto de simulación de combate RPG |
-
-## Ejecución
-
-1. Abre el proyecto en IntelliJ IDEA con el SDK de Java 27.
-2. Ejecuta `Principal`, `SistemaGestionCuentas` o la clase `Main` del simulador con el icono verde junto a su método `main`.
